@@ -1,0 +1,24 @@
+{
+  "name": "webpack-example",
+  "version": "1.0.0",
+  "description": "A simple webpack example.",
+  "main": "bundle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --config webpack.config.js --mode=dev --watch",
+    "build": "webpack --config webpack.config.js --mode=build",
+    "clean": "del bundle.js"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "toolwiz",
+  "license": "MIT",
+  "devDependencies": {
+    "css-loader": "^0.26.1",
+    "del": "^2.2.2",
+    "del-cli": "^0.2.1",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.1"
+  }
+}
